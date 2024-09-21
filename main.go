@@ -109,7 +109,7 @@ func main() {
 	log.Fatal(http.ListenAndServe(":8000", r))
 }
 
-// Request sample
+// Sample JSON data for POST request
 // {
 // 	"isbn":"4545454",
 // 	"title":"Book Three",
